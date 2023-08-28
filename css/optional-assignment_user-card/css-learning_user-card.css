@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.canvas {
+    position: fixed;
+    margin: 2% auto;
+    z-index: auto;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 275px;
+    background-color: white;
+    border-style: solid;
+    border-color: #2a2627;
+    background-color: #e8ded8;
+}
+.header {
+    position: absolute;
+    z-index: 1;
+    min-height: 20%;
+    min-width: 100%;
+    background-color: #4c4241;
+}
+
+.content {
+    /* background-color: white; */
+    position: relative;
+    top: 0px;
+    z-index: 2;
+    padding: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+img[src="user-circle.png"] {
+   width: 80px;
+   border: 5px solid #f1eae8;
+   border-radius: 50%;
+}
+h1 {
+    margin-top: -6px;
+}
+.location {
+    margin-top: 5px; 
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+img[src="map-marker.png"] {
+    width: 12px;
+    margin-right: 5px;
+}
+.biography {
+    margin-top: 5px;
+    font-weight: bold;
+}
+.settings {
+    margin-top: 8px;
+    font-weight: bold;
+    color: #692825;
+}
+img[src="gear.png"] {
+    width: 12px;
+    margin-right: 5px;
+}
+.content1 {
+
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Sans:wght@300&family=Tajawal:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #2a2627;
+    font-family: 'Tajawal', sans-serif;
+}
+.headerBanner {
+    position: sticky;
+    top: 0;
+    background-color: #948582;
+    color: white;
+    font-size: 1rem;
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+
+}
+.headerContent {
+    width: 75rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.rightText {
+    margin-left: auto;
+}
+
+.horizontalContainer {
+    /* background-color: black; */
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 75rem;
+    /* max-width: 75%; */
+    /* min-width: 75rem; */
+}
+
+.column1 {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.column2 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.item {
+    background-color: #4c4241;
+    color: white;
+    font-size: 1.1rem;
+    /* display: flex; */
+    border-radius: .25rem;
+    box-shadow: 3px 3px 10px 1px #151314;
+}
+.itemHeaderBanner1 {
+    background-color: #f1eae8;
+    color: white;
+    height: 5rem;
+}
+#item1 {
+    /* flex: 2; */
+    height: 25rem;
+}
+
+#item2 {
+    /* flex: 1; */
+    height: 25rem;
+}
+#item3 {
+    /* flex: 2; */
+    height: 16rem;
+}
+
+#item4 {
+    height: 25rem;
+    /* flex: 1; */
+}

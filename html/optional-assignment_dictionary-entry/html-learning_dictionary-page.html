@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css-learning_dictionary-page.css">
+    <title>Dojonary</title>
+</head>
+<body>
+
+    <div class="navBar">
+        <h1>Dojonary</h1>
+        <textarea id="searchBar" id="searchBar" rows="1" cols="30" class="searchBar" onkeypress="return searchAttempt(event, this)"></textarea>
+        <button type="button" onclick="loginChange(this)" class="loginButton" onmouseover="hoverOver(this)" onmouseleave="hoverLeave(this)">
+            Login</button>
+    </div>
+
+    <div class="contentWindow">
+
+        <div class="column1">
+            <div class="item" id="itemNinja1">
+                <div class="wordData">
+                    <h1>ninja</h1>
+                    <h2><em>noun</em></h2>
+                    <h3>Plural: <em>ninjas</em></h3>
+                    <button type="button" class="likes13" onmouseover="hoverOver(this)" onmouseleave="hoverLeave(this)" onclick="buttonLike13(this)">
+                        13 likes</button>
+                </div>
+                <p class="definition">
+                    A practitioner skilled in the 
+                    <a href="https://konmari.com/">Japanese</a> art of
+                    <a href="https://konmari.com/">ninjutsu</a>
+                </p>
+            </div>
+
+            <div class="item">
+                <div class="wordData" id="itemNinja2">
+                    <h1>ninja</h1>
+                    <h2><em>noun</em></h2>
+                    <h3>Plural: <em>ninjas</em></h3>
+                    <button type="button" class="likes37" onmouseover="hoverOver(this)" onmouseleave="hoverLeave(this)" onclick="buttonLike37(this)">
+                        37 likes</button>
+                </div>
+                <p class="definition">
+                    A <a href="https://konmari.com/">programmer</a> 
+                    who breaks down problems 
+                    with <a href="https://konmari.com/">zen</a>-like focus
+                </p>
+            </div>
+        </div>
+
+        <div class="column2">
+            <div class="itemAD" id="newItemBlock">
+                <p>Dojonary is defined by <b>YOU</b></p>
+                <button type="button" onclick="buttonRemove(this)" class="addDefinitionButton" onmouseover="hoverOver(this)" onmouseleave="hoverLeave(this)">
+                    Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="js-learning_dictionary-page.js"></script>
+</body>
+</html>

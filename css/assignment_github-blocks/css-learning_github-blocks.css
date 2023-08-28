@@ -1,0 +1,37 @@
+
+body {
+    display: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    height:200px;
+}
+
+.row-container {
+    height: 230px;
+    width: 800px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+#top {
+    padding: 15 px;
+    background-color: tan;
+}
+
+#middle {
+    padding: 15 px;
+    background-color: beige;
+}
+
+#bottom {
+    padding: 15 px;
+    background-color: brown;
+}

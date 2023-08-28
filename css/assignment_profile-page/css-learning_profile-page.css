@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Noto+Sans:wght@300&family=Tajawal:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #2a2627;
+    font-family: 'Tajawal', sans-serif;
+}
+.headerBanner {
+    position: sticky;
+    top: 0;
+    background-color: #948582;
+    height: 3rem;
+
+}
+.headerContent {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    color: white;
+    padding: 0 1rem 2rem 1rem;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1rem;
+}
+h3 {
+    font-size: 1.3rem;
+}
+
+.headerContent a {
+    color: white;
+    text-decoration: none;
+}
+.Sign-Out {
+    margin-left: auto;
+    font-size: 1.1rem;
+    background-color: #2a2627;
+    color: #f1eae8;
+    padding: 0.25rem .5rem;
+    border: none;
+    box-shadow: 1px 1px 2px 1px #151314;
+    font-family: 'Tajwal', sans-serif;
+}
+
+.horizontalContainer {
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 60rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.column1 {
+    flex: 4;
+    min-width: 17rem;
+}
+.column2 {
+    flex: 3;
+    min-width: 17rem;
+}
+
+.item {
+    background-color: #4c4241;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: .25rem;
+    box-shadow: 3px 3px 10px 1px #151314;
+    border: 1px solid #151314;
+    margin-top: 2rem;
+}
+.item .itemHeaderBanner1 {
+    background-color: #f1eae8;
+    color: white;
+    height: 5rem;
+}
+.item .itemHeaderBanner2 {
+    background-color: #f1eae8;
+    color: #2a2627;
+    height: 3rem;
+    box-sizing: border-box;
+    display: flex;
+    gap: .5rem;
+    padding: .75rem 0 0 1.5rem;
+}
+.item .profilePicture {
+    width: 3rem;
+    border-radius: 50%;
+    border: .25rem solid white;
+}
+/* ITEM 1 */
+.itemContent1 {
+    padding: 0 1.5rem 1rem 1.5rem;
+}
+.itemContent1 > * {
+    margin-top: 1rem;
+}
+.itemContent1 #profilePictureJane {
+    margin-top: -3.2rem;
+    width: 6rem;
+    border-radius: 50%;
+    border: .25rem solid white;
+}
+.itemContent1 h1 {
+    margin-top: 0;
+}
+.itemContent1 .location {
+    font-weight: bold;
+}
+.itemContent1 #locationIcon {
+    width: .75rem;
+    margin-right: .3rem;
+}
+.itemContent1 a{
+    color: black;
+}
+.itemContent1 #settingsIcon {
+    width: .75rem;
+    margin-right: .3rem;
+}
+/* ITEM 2 */
+.itemContent2 {
+    padding: .75rem 1.5rem 1rem 1.5rem;
+}
+.itemContent2 > * {
+    margin-top: .8rem;
+}
+.itemContent2 > h3 {
+    /* font-size: 1rem; */
+    margin-top: .2rem;
+}
+.itemContent2 > h2 {
+    /* font-size: 1rem; */
+    margin-top: .2rem;
+}
+/* ITEM 3 */
+#item3 #requestNumber {
+    background-color: #948582;
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+}
+.itemContent3 {
+    padding: 0 1.5rem 1rem 1.5rem;
+    
+}
+.connectionRequest {
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.itemContent3 .denyIcon {
+    width: 2rem;
+
+}
+.itemContent3 .acceptIcon {
+    width: 2rem;
+    margin-left: auto;
+}
+/* ITEM 4 */
+#item4 #connectionNumber {
+    background-color: #948582;
+    color: white;
+    width: 4.2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3px;
+}
+.itemContent4 {
+    padding: 0 1.5rem;
+    
+}
+.connectionBlock {
+    display:flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.itemFooter {
+    color: #2a2627;
+    height: 3rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    border-top: 1px solid #948582;
+    padding: .5rem 0 0 1.5rem;
+}
+.itemFooter > a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #151314;
+}

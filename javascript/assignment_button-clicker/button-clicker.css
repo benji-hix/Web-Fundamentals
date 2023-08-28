@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=GFS+Didot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+button {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.navBar {
+    max-width: 50rem;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 1rem .2rem 1rem;
+    background-color: #948582;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar button {
+    background-color: #2a9d8f;
+    color: white;
+    padding: .3rem .5rem;
+    font-size: .75rem;
+}
+
+.contentWindow {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.column1 {
+    flex: 5;
+}
+.column2 {
+    flex: 2;
+}
+
+.item {
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    gap: 2rem;
+    padding: 1rem 2rem 1.5rem 2rem;
+}
+.item p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.item a {
+    color: navy;
+}
+.wordData {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wordData h2 {
+    margin-top: -.2rem;
+}
+.wordData h3 {
+    margin-bottom: .6rem;
+}
+.wordData button {
+    background-color: #ffc300;
+    padding: .3rem .5rem;
+}
+
+.itemAD {
+    border: 3px solid black;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem 1.5rem 2rem;
+}
+
+.itemAD p {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.itemAD button {
+    margin-top: .6rem;
+    background-color: #f4acb7;
+    font-size: 1.2rem;
+    padding: .3rem .5rem ;
+}
+
+.hoverOver {
+    box-shadow: 2px 2px 4px black;
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="like-button.css">
+    <title>Like Button</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Network</h1>
+    </div>
+    <div class="title-box">
+        <h1>Your Feed</h1>
+    </div>
+    <!-- content area begins -->
+    <div class="content-area">
+        <!-- left column - profile  -->
+        <div class="column1">
+            <div class="content-box" id="profile-box">
+                <img src="user-circle.png" id="profile-icon">
+                <a = href="https://konmari.com/" class="link">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+        </div>
+
+        <div class="column2">
+            <div class="content-box" id="content-box-1">
+                <div class="content-top-row">
+                    <h1 class="commenterName">Neil M</h1>
+                    <h2 id="like-counter1">0 likes</h2>
+                    <button type="button" onmouseover="hoverOver(this)" 
+                    onmouseleave="hoverLeave(this)" onclick="likeCountIncrease(1)">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what 
+                    you all think. <a href="https://konmari.com/">link</a></p>
+            </div>
+            <div class="content-box" id="content-box-2">
+                <div class="content-top-row">
+                    <h1 class="commenterName">Nichole K</h1>
+                    <h2 id="like-counter2">0 likes</h2>
+                    <button type="button" onmouseover="hoverOver(this)" 
+                    onmouseleave="hoverLeave(this)" onclick="likeCountIncrease(2)">Like</button>
+                </div>
+                <p>Just finished my <a href="https://konmari.com/">next comic</a>, 
+                    check it out.</p>
+            </div>
+            <div class="content-box" id="content-box-3">
+                <div class="content-top-row">
+                    <h1 class="commenterName">Jim R</h1>
+                    <h2 id="like-counter3">0 likes</h2>
+                    <button type="button" onmouseover="hoverOver(this)" 
+                    onmouseleave="hoverLeave(this)" onclick="likeCountIncrease(3)">Like</button>
+                </div>
+                    <p>I can't stop listening to the <a href="https://konmari.com/">new album</a>. 
+                        Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="like-button.js"></script>
+</body>
+</html>

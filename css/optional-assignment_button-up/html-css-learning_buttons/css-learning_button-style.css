@@ -1,0 +1,33 @@
+input {
+    padding:4px;
+    margin:10px;
+    display:block;
+    box-shadow:none;
+}
+
+#Search {
+    font-family: sans-serif;
+    border-radius: 25px;
+    color: #2ec4b6;
+    background-color: white;
+    width:120px;
+    height: 24px;
+    border-color: #2ec4b6;
+    border-width: 2px;
+}
+
+#Plus {
+    color:white;
+    background-color:#2ec4b6;
+    border-radius:50%;
+    width:35px;
+    height:35px;
+}
+
+#Create-Account {
+    width:160px;
+    background-color: #4361ee;
+    color: white;
+    border-color: black;
+    box-shadow:3px 3px black;
+}

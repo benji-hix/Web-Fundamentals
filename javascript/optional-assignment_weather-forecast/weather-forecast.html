@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="weather-forecast.css">
+</head>
+<body>
+        <!-- nav bar -->
+        <div class="container-nav-bar main-container-horizontal flex-evenly-center">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li><button type="button" onclick="onclickAlert()"
+                onmouseover="mouseoverText(this)" onmouseleave="mouseleaveText(this)">Seattle</button></li>
+                <li><button type="button" onclick="onclickAlert()"
+                onmouseover="mouseoverText(this)" onmouseleave="mouseleaveText(this)">Denver</button></li>
+                <li><button type="button" onclick="onclickAlert()"
+                onmouseover="mouseoverText(this)" onmouseleave="mouseleaveText(this)">Chicago</button></li>
+            </ul>
+        </div>
+        <!-- main content window -->
+        <div class="main-content-window main-container-horizontal">
+            <!-- header above main content -->
+            <div class="container-header flex-evenly-center">
+                <h3>Kyoto</h3>
+                <label for="element-temperature-selection">Show temperature in</label>
+                <select name="temperature-selection" id="element-temperature-selection" 
+                onchange="tempConversion(this)" onfocus="this.selectedIndex = -1;">
+                    <option value="°C">°C</option>
+                    <option value="°F">°F</option>
+                </select>
+            </div>
+            <!-- main content: four weather items -->
+            <div class="container-weather flex-evenly-center">
+                <div class="item-weather vertical-flex-evenly-center" id="weather1">
+                    <h4>Today</h4>
+                    <img src="assets/some_rain.png" alt="img-some-rain">
+                    <h6>some rain</h6>
+                    <div class="container-temperature">
+                        <p class="text-temp-low" id="temp-low-1">18°</p>
+                        <p class="text-temp-high" id="temp-high-1">24°</p>
+                    </div>
+                </div>
+                <div class="item-weather vertical-flex-evenly-center" id="weather2">
+                    <h4>Tomorrow</h4>
+                    <img src="assets/some_sun.png" alt="img-some-sun">
+                    <h6>some sun</h6>
+                    <div class="container-temperature">
+                        <p class="text-temp-low" id="temp-low-2">19°</p>
+                        <p class="text-temp-high" id="temp-high-2">27°</p>
+                    </div>
+                </div>
+                <div class="item-weather vertical-flex-evenly-center" id="weather3">
+                    <h4>Friday</h4>
+                    <img src="assets/some_clouds.png" alt="img-some-clouds">
+                    <h6>some clouds</h6>
+                    <div class="container-temperature">
+                        <p class="text-temp-low" id="temp-low-3">16°</p>
+                        <p class="text-temp-high" id="temp-high-3">21°</p>
+                    </div>
+                </div>
+                <div class="item-weather vertical-flex-evenly-center" id="weather4">
+                    <h4>Saturday</h4>
+                    <img src="assets/some_sun.png" alt="img-some-sun">
+                    <h6>some sun</h6>
+                    <div class="container-temperature">
+                        <p class="text-temp-low" id="temp-low-4">21°</p>
+                        <p class="text-temp-high" id="temp-high-4">26°</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- cookie pop-up -->
+        <div class="container-cookie flex-evenly-center">
+            <img src="assets/cookie.png" alt="cookie-icon">
+            <div class="text-cookie">
+                <h5>Stop! Cookie time!</h5>
+                <p>We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to 
+                    analyze our traffic. 
+                    <a href="https://konmari.com/" onmouseover="mouseoverText(this)" 
+                    onmouseleave="mouseleaveText(this)">Read more...</a>
+                </p>
+            </div>
+            <button type="button" class="button-accept-cookie" onclick="onclickAccept(this)"
+            onmouseover="mouseoverButton(this)" onmouseleave="mouseleaveButton(this)">
+            I accept</button>
+        </div>
+
+    <script src="weather-forecast.js"></script>
+</body>
+</html>

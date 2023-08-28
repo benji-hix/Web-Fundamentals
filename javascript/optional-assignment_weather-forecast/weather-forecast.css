@@ -1,0 +1,189 @@
+@import url("https://use.typekit.net/rca4avu.css");
+
+/* style defaults */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "minerva-modern", sans-serif;
+}
+body {
+    background-color: #2a2627;
+    color: #f4f0ed;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: .625rem;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .5625rem;
+}
+h3 {
+    font-size: 1.1875rem;
+    font-weight: normal;
+    margin-bottom: .5625rem;
+}
+h4 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .5625rem;
+}
+h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-family: "plantin", serif;
+    font-weight: 300;
+}
+h6 {
+    font-size: 1.1875rem;
+    font-weight: normal;
+    margin-bottom: .5rem;
+    font-family: "plantin", serif;
+    font-weight: 300;
+}
+span {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    line-height: 1.4375rem;
+}
+p {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    line-height: 1.4375rem;
+}
+a {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    color: #15141a;
+}
+button {
+    padding: .5rem 1rem;
+    border: none;
+    background-color: #e6dddb;
+}
+select {
+    padding: .5rem 1rem;
+    border: none;
+    font-family: "minerva-modern", sans-serif;
+    background-color: #e6ddd9;
+    color: #2a2627;
+}
+
+/* js hover functions */
+.mouseover-button {
+    position: relative;
+    bottom: 2px;
+    right: 2px;
+    box-shadow: 2px 2px 2px #15141a50;
+    cursor: pointer;
+}
+.mouseover-text {
+    text-decoration: underline;
+    color: #E6ddd9;
+}
+
+/* general CSS */
+.main-container-horizontal {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+.flex-evenly-center {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+.vertical-flex-evenly-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem;
+}
+/* navBar */
+.container-nav-bar {
+    box-sizing: border-box;
+    padding: .1rem 1rem;
+    background-color: #8a7b79;
+}
+.container-nav-bar ul {
+    list-style-type: none;
+    flex-shrink: 0;
+}
+.container-nav-bar li {
+    display: inline-block;
+}
+.container-nav-bar h1 {
+    margin-right: auto;
+}
+.container-nav-bar button {
+    border: none;
+    background-color: #8a7b79;
+    appearance: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: #2a2627;
+}
+
+/* header */
+.main-content-window {
+    padding: 0 1rem;
+}
+.container-header {
+    margin: 2rem 0;
+    padding: .5rem 0 1rem 0;
+    border-bottom: .1rem solid #f4f0ed;
+}
+.container-header label {
+    margin-left: auto;
+}
+
+/* weather content */
+.container-weather {
+    margin-bottom: 2rem;
+    align-items: start;
+}
+.item-weather {
+    min-width: 5rem;
+    padding: 1rem;
+    background-color: #94858215;
+    border: 1px solid #94858205;
+    box-shadow: 2px 2px 4px #15141a50;
+    white-space:nowrap
+}
+img {
+    width: 50%;
+}
+.container-temperature {
+    display: flex;
+    min-width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-temp-low {
+    color: #8ab3cc;
+    font-weight: bold;
+}
+.text-temp-high {
+    color: #eb2835;
+    font-weight: bold;
+}
+/* cookie box */
+.container-cookie {
+    position: fixed;
+    bottom: 3rem;
+    left: 20%;
+    max-width: 40rem;
+    padding: 1rem 1.5rem;
+    background-color: #8a7b79;
+}
+.container-cookie img {
+    max-width: 10%;
+}
+.container-cookie button {
+    flex-shrink: 0;
+}

@@ -1,0 +1,23 @@
+h1 {
+    text-align: left;
+    background-color: black;
+}
+span.My {
+    color: white;
+}
+span.Cloud {
+    color: aqua;
+}
+h2 {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h3 {
+    text-align: right;
+    background-color: lightblue;
+    color: black;
+    text-decoration: underline;
+}

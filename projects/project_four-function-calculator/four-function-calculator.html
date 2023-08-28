@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="four-function-calculator.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <title>Calculator-Grid</title>
+</head>
+<body>
+    <div id="calculator">
+        <div class="display-row"><p id="display" class="displayText">0</p></div>
+        <div class="row">
+          <button class="number" onclick="pressNumber(7);">7</button>
+          <button class="number" onclick="pressNumber(8);">8</button>
+          <button class="number" onclick="pressNumber(9);">9</button>
+          <button class="operator" onclick="pressOperator('/');">÷</button>
+        </div>
+        <div class="row">
+          <button class="number" onclick="pressNumber(4);">4</button>
+          <button class="number" onclick="pressNumber(5);">5</button>
+          <button class="number" onclick="pressNumber(6);">6</button>
+          <button class="operator" onclick="pressOperator('*');">*</button>
+        </div>
+        <div class="row">
+          <button class="number" onclick="pressNumber(1);">1</button>
+          <button class="number" onclick="pressNumber(2);">2</button>
+          <button class="number" onclick="pressNumber(3);">3</button>
+          <button class="operator" onclick="pressOperator('-');">−</button>
+        </div>
+        <div class="row">
+          <button class="number" id="zero" onclick="pressNumber(0);">0</button>
+          <button onclick="pressNumber('.');">.</button>
+          <button class="operator" onclick="pressOperator('+');">+</button>
+        </div>
+        <div class="row" >
+          <button class="special-operator" onclick="pressClear();">C</button>
+          <button class="special-operator" onclick="pressNegative();">-n</button>
+          <button class="special-operator" onclick="pressPercent();">%</button>
+          <button id="equals" onclick="pressEqual()">=</button>
+          <button id="log" onclick="log()"">L</button>
+        </div>
+      <div>
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+
+      <script src="four-function-calculator.js"></script>
+</body>
+</html>
